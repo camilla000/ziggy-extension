@@ -12,7 +12,7 @@ let ziggyImages = [
   "https://i.imgur.com/nreTH7Q.jpg",
 ];
 
-
+//  This function will be called when the page is loaded.
 const imgs = document.getElementsByTagName("img")
 for (let i = 0; i < imgs.length; i++) {
  const randomImg = Math.floor(Math.random() * ziggyImages.length);
